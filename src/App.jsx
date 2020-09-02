@@ -1,9 +1,11 @@
 import React from "react";
 
+import Home from "./page/Home";
+
 const App = () => {
   return (
     <>
-      <h1>Hello world</h1>
+      <Home />
     </>
   );
 };
