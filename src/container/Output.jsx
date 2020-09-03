@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/styles/output.css";
 
 const Output = ({ Word }) => {
   return (

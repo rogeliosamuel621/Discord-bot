@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/styles/input.css";
 
 const Input = () => {
   return (

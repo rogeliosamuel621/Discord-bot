@@ -1,0 +1,15 @@
+export const WordsBank = [
+  "Carro",
+  "Parrafo",
+  "Video",
+  "Rojo",
+  "Parámetro",
+  "Película",
+  "Juego",
+  "Ventaja",
+  "Tarea",
+  "Obligación",
+  "Estado",
+  "Publicar",
+  "Espejo",
+];
