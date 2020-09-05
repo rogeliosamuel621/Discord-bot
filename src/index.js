@@ -13,11 +13,11 @@ client.on('ready', () => {
 // });
 
 client.on('message', (msg) => {
-  if (msg.content.toLocaleLowerCase() === 'hola') {
+  if (msg.content.toLocaleLowerCase().includes('hola')) {
     msg.react('✌');
     const embed = new MessageEmbed()
       .setTitle('Welcome')
-      .setColor('133b5c')
+      .setColor('0779e4')
       .setDescription(`¡¡Enjoy the server!! ${msg.author}`);
     msg.channel.send(embed);
   }
