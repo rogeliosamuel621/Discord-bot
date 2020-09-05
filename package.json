@@ -1,0 +1,31 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A simple discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeliosamuel621/Discord-bot.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "discordjs"
+  ],
+  "author": "Rogelio Samuel <@rogeliosamuel21>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogeliosamuel621/Discord-bot/issues"
+  },
+  "homepage": "https://github.com/rogeliosamuel621/Discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
