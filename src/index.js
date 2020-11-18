@@ -6,11 +6,18 @@ client.on('ready', () => {
   console.log(`logged in as ${client.user.tag}`);
 });
 
-// client.on('message', (msg) => {
-//   if (msg.content === 'Hola') {
-//     msg.reply('Hola!!');
-//   }
-// });
+client.on('message', (msg) => {
+  if (msg.content.toLocaleLowerCase().includes('!fs')) {
+    msg.reply(`Por qué usan otros bots? :(`);
+  }
+
+  if (
+    msg.content.toLocaleLowerCase().includes('buenas noches') ||
+    msg.content.toLocaleLowerCase().includes('gn')
+  ) {
+    msg.reply(`good night a todos baibis`);
+  }
+});
 
 client.on('message', (msg) => {
   if (msg.content.toLocaleLowerCase().includes('hola')) {
